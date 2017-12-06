@@ -26,7 +26,11 @@ while attempts < 10:
         break 
 if attempts == 10:
     print "oops you have run out of turns"
-   
+    restart = raw_input("would you like to play agian? ")
+if restart == yes:
+    attempts = 0
+game(chosen_number, attempts)
+        
 
 
 
