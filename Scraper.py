@@ -32,10 +32,11 @@ def weather_report(URL):
     a[:,2] = a[:,2].astype(int)
     print (a)
     a = pd.DataFrame(a) 
-    a.to_csv(location[0] + ".csv")
+    East_ham =  a.to_csv(location[0] + ".csv")
+
 
 
 weather_report('http://www.bbc.co.uk/weather/2650430')
-weather_report('http://www.bbc.co.uk/weather/2639842')
-weather_report('http://www.bbc.co.uk/weather/2636979')
+# weather_report('http://www.bbc.co.uk/weather/2639842')
+# weather_report('http://www.bbc.co.uk/weather/2636979')
 

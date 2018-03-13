@@ -1,0 +1,5 @@
+db.users.insertOne({
+    username: "Yaseen",
+    dob: "02/11/98",
+    age: 19
+})
